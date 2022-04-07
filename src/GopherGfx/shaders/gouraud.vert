@@ -57,7 +57,7 @@ void main()
         vec3 e = normalize(eyePosition - worldPosition);
 
         // Compute the light vector reflected about the normal
-        vec3 r = reflect(l, n);
+        vec3 r = reflect(-l, n);
         
         // Diffuse component
         float specularComponent = pow(max(dot(e, r), 0.0), shininess);

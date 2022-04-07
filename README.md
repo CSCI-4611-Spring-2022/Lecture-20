@@ -1,6 +1,6 @@
 # Lecture 20: Programming a Gouraud Shader
 
-Detailed explanation of this code can be found in the lecture video.
+Detailed explanation of this code can be found in the [lecture video](https://mediaspace.umn.edu/media/t/1_edxfavxq).
 
 You can run the program on [GitHub pages](https://csci-4611-spring-2022.github.io/Lecture-20).
 
