@@ -57,7 +57,7 @@ void main()
         vec3 e = normalize(eyePosition - worldPosition);
 
         
-        vec3 r = reflect(l, n);
+        vec3 r = reflect(-l, n);
         
         
         float specularComponent = pow(max(dot(e, r), 0.0), shininess);
